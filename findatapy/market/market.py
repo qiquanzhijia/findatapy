@@ -31,7 +31,7 @@ class Market(object):
                 market_data_generator = MarketDataGenerator()
             elif DataConstants().default_market_data_generator == 'cachedmarketdatagenerator':
                 # NOT CURRENTLY IMPLEMENTED FOR FUTURE USE
-                from finaddpy.market import CachedMarketDataGenerator
+                from findatapy.market import CachedMarketDataGenerator
                 market_data_generator = CachedMarketDataGenerator()
 
         self.speed_cache = SpeedCache()
